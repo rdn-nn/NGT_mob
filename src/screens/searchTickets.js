@@ -1,12 +1,10 @@
 import { useState, useEffect } from "react";
 import {
-  StyleSheet,
   SafeAreaView,
   View,
   Text,
   TextInput,
   TouchableOpacity,
-  FlatList,
   Image,
   ImageBackground,
   StatusBar,
@@ -15,7 +13,7 @@ import {
 import { styles as estilos } from "../components/stStyle";
 import database from "../database/NGT_DB.json";
 import { Ionicons } from "@expo/vector-icons";
-import * as FileSystem from "expo-file-system";
+//import * as FileSystem from "expo-file-system";
 
 //import api from "../../service/api";
 //import { ChamadoList } from "../../components/chamadolist";
@@ -101,6 +99,8 @@ export function SearchTickets() {
               const StatusNome = database.StatusTicket.find(
                 (id) => id.sti_codigo === item.sti_codigo
               )?.sti_nome;
+              // const imgOco = item.oco_imgocorrencia;
+              // console.log(imgOco);
               // const fileUri = item.oco_imgocorrencia.Image; // Acessando o caminho da imagem em bd.json
               // console.log(fileUri);
               // const base64 = FileSystem.readAsStringAsync(fileUri, { encoding: 'base64' });
@@ -115,7 +115,7 @@ export function SearchTickets() {
               //     setImageUri(fileInfo.uri);
               //     // console.log(FileSystem.documentDirectory + fileInfo);
               // } else {
-              //     console.log("Retorno vazio");
+              //     console.log(ImageUri);
               // }
               return (
                 <View style={estilos.content}>
@@ -227,12 +227,22 @@ export function SearchTickets() {
                     </View>
 
                     <View style={estilos.cbContainer2}>
+                    
                       <Image
-                        source={
-                          FileSystem.documentDirectory + item.oco_imgocorrencia
+                        source={require('../images/semImagem.png')
                         }
                         style={estilos.image}
                       />
+                    
+                    {/* {ImageUri != "" && (
+                      <Image
+                        source={
+                          ImageUri
+                        }
+                        style={estilos.image}
+                      />
+                    )} */}
+                      
                     </View>
                   </View>
                 </View>
