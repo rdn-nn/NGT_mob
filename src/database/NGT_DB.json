@@ -1,0 +1,754 @@
+{
+  "Content-Type": "application/json",
+  "Bloco": [
+    {
+      "blo_codigo": 1,
+      "blo_nome": "Bloco A",
+      "sta_codigo": 2
+    },
+    {
+      "blo_codigo": 2,
+      "blo_nome": "Bloco B",
+      "sta_codigo": 2
+    },
+    {
+      "blo_codigo": 4,
+      "blo_nome": "Bloco C",
+      "sta_codigo": 2
+    }
+  ],
+  
+  "Categoria":[
+    {
+      "cat_codigo": 1,
+      "cat_nome": "Mobília",
+      "sta_codigo": 2
+    },
+    {
+      "cat_codigo": 2,
+      "cat_nome": "Infraestrutura",
+      "sta_codigo": 2
+    },
+    {
+      "cat_codigo": 3,
+      "cat_nome": "Eletrônicos",
+      "sta_codigo": 2
+    }
+  ], 
+
+  "Local":[
+    {
+      "loc_codigo": 1,
+      "loc_nome": "Sala 1",
+      "blo_codigo": 1,
+      "sta_codigo": 1
+    },
+    {
+      "loc_codigo": 2,
+      "loc_nome": "Sala 2",
+      "blo_codigo": 2,
+      "sta_codigo": 1
+    },
+    {
+      "loc_codigo": 3,
+      "loc_nome": "Sala 3",
+      "blo_codigo": 1,
+      "sta_codigo": 1
+    },
+    {
+      "loc_codigo": 4,
+      "loc_nome": "Sala A1",
+      "blo_codigo": 1,
+      "sta_codigo": 2
+    },
+    {
+      "loc_codigo": 5,
+      "loc_nome": "Sala A2",
+      "blo_codigo": 1,
+      "sta_codigo": 2
+    },
+    {
+      "loc_codigo": 6,
+      "loc_nome": "Sala A3",
+      "blo_codigo": 1,
+      "sta_codigo": 2
+    },
+    {
+      "loc_codigo": 7,
+      "loc_nome": "Sala C1",
+      "blo_codigo": 4,
+      "sta_codigo": 2
+    },
+    {
+      "loc_codigo": 8,
+      "loc_nome": "Sala C2",
+      "blo_codigo": 4,
+      "sta_codigo": 2
+    },
+    {
+      "loc_codigo": 9,
+      "loc_nome": "Sala C3",
+      "blo_codigo": 4,
+      "sta_codigo": 2
+    },
+    {
+      "loc_codigo": 10,
+      "loc_nome": "Laboratório B1",
+      "blo_codigo": 2,
+      "sta_codigo": 2
+    },
+    {
+      "loc_codigo": 11,
+      "loc_nome": "Laboratório B2",
+      "blo_codigo": 2,
+      "sta_codigo": 2
+    },
+    {
+      "loc_codigo": 12,
+      "loc_nome": "Laboratório B3",
+      "blo_codigo": 2,
+      "sta_codigo": 2
+    }
+  ], 
+
+  "Motivo":[
+    {
+      "mot_codigo": 1,
+      "mot_nome": "Quebrado/Trincado",
+      "sta_codigo": 2
+    },
+    {
+      "mot_codigo": 2,
+      "mot_nome": "Não funciona",
+      "sta_codigo": 2
+    }
+  ], 
+
+  "TipoManutencao":[
+    {
+      "mti_codigo": 1,
+      "mti_nome": "Hidráulica",
+      "sta_codigo": 2
+    },
+    {
+      "mti_codigo": 2,
+      "mti_nome": "Elétrica",
+      "sta_codigo": 2
+    },
+    {
+      "mti_codigo": 4,
+      "mti_nome": "Pintura",
+      "sta_codigo": 2
+    },
+    {
+      "mti_codigo": 5,
+      "mti_nome": "Alvenaria",
+      "sta_codigo": 2
+    },
+    {
+      "mti_codigo": 6,
+      "mti_nome": "Predial",
+      "sta_codigo": 2
+    }
+  ],
+
+"Item":[
+	{
+		"ite_codigo": 1,
+		"ite_nome": "Cadeira",
+		"sta_codigo": 2
+	},
+	{
+		"ite_codigo": 2,
+		"ite_nome": "Mesa",
+		"sta_codigo": 2
+	},
+	{
+		"ite_codigo": 3,
+		"ite_nome": "Janela",
+		"sta_codigo": 2
+	},
+	{
+		"ite_codigo": 4,
+		"ite_nome": "Computador",
+		"sta_codigo": 2
+	},
+	{
+		"ite_codigo": 5,
+		"ite_nome": "Carteira",
+		"sta_codigo": 2
+	},
+	{
+		"ite_codigo": 6,
+		"ite_nome": "Ar Condicionado",
+		"sta_codigo": 2
+	},
+	{
+		"ite_codigo": 7,
+		"ite_nome": "Monitor",
+		"sta_codigo": 2
+	}
+], 
+
+"ItemDesc": [
+	{
+		"itd_codigo": 4,
+		"ite_codigo": 1,
+		"itd_numserie": "04561",
+		"itd_patrimonio": 102,
+		"itd_hasplaca": true,
+		"itd_ispatinterno": true,
+		"loc_codigo": 4,
+		"cat_codigo": 1,
+		"sta_codigo": 2
+	},
+	{
+		"itd_codigo": 5,
+		"ite_codigo": 1,
+		"itd_numserie": "010",
+		"itd_patrimonio": 155,
+		"itd_hasplaca": true,
+		"itd_ispatinterno": true,
+		"loc_codigo": 9,
+		"cat_codigo": 1,
+		"sta_codigo": 2
+	},
+	{
+		"itd_codigo": 6,
+		"ite_codigo": 5,
+		"itd_numserie": "0780",
+		"itd_patrimonio": 245,
+		"itd_hasplaca": true,
+		"itd_ispatinterno": true,
+		"loc_codigo": 5,
+		"cat_codigo": 1,
+		"sta_codigo": 2
+	},
+	{
+		"itd_codigo": 7,
+		"ite_codigo": 5,
+		"itd_numserie": "0145",
+		"itd_patrimonio": 350,
+		"itd_hasplaca": true,
+		"itd_ispatinterno": true,
+		"loc_codigo": 8,
+		"cat_codigo": 1,
+		"sta_codigo": 2
+	},
+	{
+		"itd_codigo": 8,
+		"ite_codigo": 6,
+		"itd_numserie": null,
+		"itd_patrimonio": 2157,
+		"itd_hasplaca": false,
+		"itd_ispatinterno": false,
+		"loc_codigo": 10,
+		"cat_codigo": 3,
+		"sta_codigo": 2
+	},
+	{
+		"itd_codigo": 9,
+		"ite_codigo": 6,
+		"itd_numserie": null,
+		"itd_patrimonio": 2519,
+		"itd_hasplaca": false,
+		"itd_ispatinterno": true,
+		"loc_codigo": 11,
+		"cat_codigo": 3,
+		"sta_codigo": 2
+	},
+	{
+		"itd_codigo": 10,
+		"ite_codigo": 6,
+		"itd_numserie": null,
+		"itd_patrimonio": 2799,
+		"itd_hasplaca": false,
+		"itd_ispatinterno": true,
+		"loc_codigo": 12,
+		"cat_codigo": 3,
+		"sta_codigo": 2
+	},
+	{
+		"itd_codigo": 11,
+		"ite_codigo": 4,
+		"itd_numserie": "650",
+		"itd_patrimonio": 875,
+		"itd_hasplaca": true,
+		"itd_ispatinterno": true,
+		"loc_codigo": 10,
+		"cat_codigo": 3,
+		"sta_codigo": 2
+	},
+	{
+		"itd_codigo": 12,
+		"ite_codigo": 4,
+		"itd_numserie": "710",
+		"itd_patrimonio": 919,
+		"itd_hasplaca": true,
+		"itd_ispatinterno": true,
+		"loc_codigo": 12,
+		"cat_codigo": 3,
+		"sta_codigo": 2
+	},
+	{
+		"itd_codigo": 13,
+		"ite_codigo": 4,
+		"itd_numserie": "720",
+		"itd_patrimonio": 888,
+		"itd_hasplaca": true,
+		"itd_ispatinterno": true,
+		"loc_codigo": 11,
+		"cat_codigo": 3,
+		"sta_codigo": 2
+	},
+	{
+		"itd_codigo": 14,
+		"ite_codigo": 7,
+		"itd_numserie": "663",
+		"itd_patrimonio": 698,
+		"itd_hasplaca": true,
+		"itd_ispatinterno": true,
+		"loc_codigo": 10,
+		"cat_codigo": 3,
+		"sta_codigo": 2
+	},
+	{
+		"itd_codigo": 15,
+		"ite_codigo": 7,
+		"itd_numserie": "813",
+		"itd_patrimonio": 1011,
+		"itd_hasplaca": true,
+		"itd_ispatinterno": true,
+		"loc_codigo": 11,
+		"cat_codigo": 3,
+		"sta_codigo": 2
+	},
+	{
+		"itd_codigo": 16,
+		"ite_codigo": 3,
+		"itd_numserie": null,
+		"itd_patrimonio": 3014,
+		"itd_hasplaca": false,
+		"itd_ispatinterno": false,
+		"loc_codigo": 5,
+		"cat_codigo": 2,
+		"sta_codigo": 2
+	},
+	{
+		"itd_codigo": 17,
+		"ite_codigo": 3,
+		"itd_numserie": null,
+		"itd_patrimonio": 3785,
+		"itd_hasplaca": false,
+		"itd_ispatinterno": true,
+		"loc_codigo": 8,
+		"cat_codigo": 2,
+		"sta_codigo": 2
+	},
+	{
+		"itd_codigo": 18,
+		"ite_codigo": 2,
+		"itd_numserie": null,
+		"itd_patrimonio": 295,
+		"itd_hasplaca": false,
+		"itd_ispatinterno": false,
+		"loc_codigo": 9,
+		"cat_codigo": 1,
+		"sta_codigo": 2
+	},
+	{
+		"itd_codigo": 19,
+		"ite_codigo": 2,
+		"itd_numserie": null,
+		"itd_patrimonio": 784,
+		"itd_hasplaca": false,
+		"itd_ispatinterno": false,
+		"loc_codigo": 6,
+		"cat_codigo": 1,
+		"sta_codigo": 2
+	},
+	{
+		"itd_codigo": 20,
+		"ite_codigo": 5,
+		"itd_numserie": "681",
+		"itd_patrimonio": 856,
+		"itd_hasplaca": true,
+		"itd_ispatinterno": false,
+		"loc_codigo": 7,
+		"cat_codigo": 1,
+		"sta_codigo": 2
+	},
+	{
+		"itd_codigo": 21,
+		"ite_codigo": 1,
+		"itd_numserie": null,
+		"itd_patrimonio": null,
+		"itd_hasplaca": false,
+		"itd_ispatinterno": false,
+		"loc_codigo": 1,
+		"cat_codigo": 1,
+		"sta_codigo": 2
+	},
+	{
+		"itd_codigo": 22,
+		"ite_codigo": 2,
+		"itd_numserie": null,
+		"itd_patrimonio": null,
+		"itd_hasplaca": false,
+		"itd_ispatinterno": false,
+		"loc_codigo": 1,
+		"cat_codigo": 1,
+		"sta_codigo": 2
+	},
+	{
+		"itd_codigo": 23,
+		"ite_codigo": 3,
+		"itd_numserie": null,
+		"itd_patrimonio": null,
+		"itd_hasplaca": false,
+		"itd_ispatinterno": false,
+		"loc_codigo": 2,
+		"cat_codigo": 2,
+		"sta_codigo": 2
+	}
+],
+
+
+
+
+  "Perfil":[
+    {
+      "per_codigo": 2,
+      "per_nome": "Administrador"
+    },
+    {
+      "per_codigo": 1,
+      "per_nome": "Diretor de Serviços"
+    }
+  ],
+
+  "Status":[
+    {
+      "sta_codigo": 1,
+      "sta_nome": "Desativado"
+    },
+    {
+      "sta_codigo": 2,
+      "sta_nome": "Ativado"
+    }
+  ], 
+
+  "StatusTicket":[
+    {
+      "sti_codigo": 1,
+      "sti_nome": "Pendente"
+    },
+    {
+      "sti_codigo": 2,
+      "sti_nome": "Em Andamento"
+    },
+    {
+      "sti_codigo": 3,
+      "sti_nome": "Concluído"
+    },
+    {
+      "sti_codigo": 4,
+      "sti_nome": "Cancelado"
+    }
+  ],
+
+"Usuario":[
+	{
+		"usu_codigo": 1,
+		"usu_nome": "Nice Montarroyos",
+		"usu_email": "nice.montarroyos@fatec.sp.gov.br",
+		"usu_senha": "641IWbeutP6fjoNs5swXN32h1bvBNz5tSCUNZe549ysNptjgB2Pz+dBPZ/D0GHrDkwOP3c4QCmjmc+UeWyk1TA==",
+		"usu_hash": null,
+		"usu_imgperfil": "\\Areas\\Admin\\Content\\Images\\anonimo.jpg",
+		"per_codigo": 2,
+		"sta_codigo": 2
+	},
+	{
+		"usu_codigo": 2,
+		"usu_nome": "Jessica Aquiles",
+		"usu_email": "jessica.lucio@fatec.sp.gov.br",
+		"usu_senha": "641IWbeutP6fjoNs5swXN32h1bvBNz5tSCUNZe549ysNptjgB2Pz+dBPZ/D0GHrDkwOP3c4QCmjmc+UeWyk1TA==",
+		"usu_hash": null,
+		"usu_imgperfil": "\\Areas\\Admin\\Content\\Images\\anonimo.jpg",
+		"per_codigo": 2,
+		"sta_codigo": 2
+	},
+	{
+		"usu_codigo": 3,
+		"usu_nome": "Rudson Nunes",
+		"usu_email": "rudson.nunes@fatec.sp.gov.br",
+		"usu_senha": "641IWbeutP6fjoNs5swXN32h1bvBNz5tSCUNZe549ysNptjgB2Pz+dBPZ/D0GHrDkwOP3c4QCmjmc+UeWyk1TA==",
+		"usu_hash": null,
+		"usu_imgperfil": "\\Areas\\Admin\\Content\\Images\\anonimo.jpg",
+		"per_codigo": 1,
+		"sta_codigo": 2
+	},
+	{
+		"usu_codigo": 4,
+		"usu_nome": "Wanderson Santos",
+		"usu_email": "wanderson.santos6@fatec.sp.gov.br",
+		"usu_senha": "641IWbeutP6fjoNs5swXN32h1bvBNz5tSCUNZe549ysNptjgB2Pz+dBPZ/D0GHrDkwOP3c4QCmjmc+UeWyk1TA==",
+		"usu_hash": null,
+		"usu_imgperfil": "\\Areas\\Admin\\Content\\Images\\anonimo.jpg",
+		"per_codigo": 2,
+		"sta_codigo": 2
+	}
+],
+
+"Fornecedor":[
+	{
+		"for_codigo": 1,
+		"for_razaosoc": "BASF SA",
+		"for_nomefantasia": "BASF SA",
+		"for_cnpj": 775554366553,
+		"for_ie": 145311454,
+		"for_endereco": "Av. Das Nações Unidas, 14171, Diamond Tower São Paulo -SP",
+		"for_telefone": "113928000",
+		"for_email": "basf@basf.com.br",
+		"for_servprestado": "Venda",
+		"for_responsavel": "BASF",
+		"for_cargoresp": "Químico",
+		"for_ramoativ": "Químico",
+		"for_obs": "Teste",
+		"sta_codigo": 1
+	},
+	{
+		"for_codigo": 2,
+		"for_razaosoc": "Sede da Dow na América Latina",
+		"for_nomefantasia": "DOW SA",
+		"for_cnpj": 43535354353,
+		"for_ie": 223232323,
+		"for_endereco": "Av. Das Nações Unidas, 14171, Diamond Tower São Paulo -SP",
+		"for_telefone": "1151889000",
+		"for_email": "dow@dow.com",
+		"for_servprestado": "Venda",
+		"for_responsavel": "Químico",
+		"for_cargoresp": "Químico",
+		"for_ramoativ": "Químico",
+		"for_obs": "Teste",
+		"sta_codigo": 1
+	},
+	{
+		"for_codigo": 3,
+		"for_razaosoc": "Fornecedor 01",
+		"for_nomefantasia": "Fornecedor Teste 01",
+		"for_cnpj": 1213546558,
+		"for_ie": 13213212,
+		"for_endereco": "Rua Teste 01, nº 123",
+		"for_telefone": "1231281011",
+		"for_email": "Fornecedor01@testefornecedor01.com",
+		"for_servprestado": "Pintura",
+		"for_responsavel": "Pessoa 01",
+		"for_cargoresp": "Diretor Comercial",
+		"for_ramoativ": "Pintura e Funilaria",
+		"for_obs": "2",
+		"sta_codigo": 2
+	},
+	{
+		"for_codigo": 4,
+		"for_razaosoc": "Fornecedor 02",
+		"for_nomefantasia": "Fornecedor Teste 02",
+		"for_cnpj": 55877481518,
+		"for_ie": 12401441,
+		"for_endereco": "Rua Teste 02, nº 45",
+		"for_telefone": "1231575544",
+		"for_email": "Fornecedor02@testefornecedor02.com",
+		"for_servprestado": "Conserto de Eletrônicos",
+		"for_responsavel": "Pessoa 02",
+		"for_cargoresp": "Diretor Comercial",
+		"for_ramoativ": "Conserto de Eletroeletrônicos",
+		"for_obs": "2",
+		"sta_codigo": 2
+	},
+	{
+		"for_codigo": 5,
+		"for_razaosoc": "Fornecedor 03",
+		"for_nomefantasia": "Fornecedor Teste 03",
+		"for_cnpj": 8744451114,
+		"for_ie": 32254114,
+		"for_endereco": "Rua Teste 03, nº 1055",
+		"for_telefone": "1231281011",
+		"for_email": "Fornecedor03@testefornecedor03.com",
+		"for_servprestado": "Obras em Geral",
+		"for_responsavel": "Pessoa 03",
+		"for_cargoresp": "Diretor Comercial",
+		"for_ramoativ": "Obras",
+		"for_obs": "2",
+		"sta_codigo": 2
+	}
+],
+
+
+
+"Chamado": [
+	{
+		"oco_codigo": 2,
+		"oco_obs": "Cadeira com uma das rodinhas quebrada.",
+		"oco_infoatualizacao": "● Cadeira trocada por uma em perfeito estado.  - Data: 20/06/2023 13:01:54   |  ● Verificando procedência do chamado.  - Data: 20/06/2023 12:58:23",
+		"oco_datacriacao": "2023-06-20 12:43:53.747",
+		"oco_dataatualizacao": "2023-06-20 13:01:54.65",
+		"oco_numticket": "A02053",
+		"oco_imgocorrencia": "\\Areas\\Admin\\Content\\Images\\A02053\\FotoOcorrenciaA02053.png",
+		"oco_emailcriador": "rudson.nunes@fatec.sp.gov.br",
+		"blo_codigo": 1,
+		"loc_codigo": 4,
+		"cat_codigo": 1,
+		"ite_codigo": 1,
+		"mot_codigo": 1,
+		"sti_codigo": 3
+	},
+	{
+		"oco_codigo": 3,
+		"oco_obs": "Faltando um dos vidros da janela.",
+		"oco_infoatualizacao": "● OS aberta para troca do vidro quebrado.   - Data: 20/06/2023 13:01:29   |   ● Verificando procedência do chamado.  - Data: 20/06/2023 12:58:37",
+		"oco_datacriacao": "2023-06-20 12:51:28.803",
+		"oco_dataatualizacao": "2023-06-20 13:01:29.783",
+		"oco_numticket": "A32028",
+		"oco_imgocorrencia": "\\Areas\\Admin\\Content\\Images\\A32028\\FotoOcorrenciaA32028.png",
+		"oco_emailcriador": "rudson.nunes@fatec.sp.gov.br",
+		"blo_codigo": 1,
+		"loc_codigo": 5,
+		"cat_codigo": 2,
+		"ite_codigo": 3,
+		"mot_codigo": 1,
+		"sti_codigo": 2
+	},
+	{
+		"oco_codigo": 4,
+		"oco_obs": "Mesa está com o pé quebrado, balançando.",
+		"oco_infoatualizacao": "● Mesa substituída por outra em perfeito estado.  - Data: 20/06/2023 13:45:31 | ● Verificando procedência do chamado.  - Data: 20/06/2023 12:58:44",
+		"oco_datacriacao": "2023-06-20 12:52:29.993",
+		"oco_dataatualizacao": "2023-06-20 13:45:31.063",
+		"oco_numticket": "A42029",
+		"oco_imgocorrencia": "\\Areas\\Admin\\Content\\Images\\A42029\\FotoOcorrenciaA42029.png",
+		"oco_emailcriador": "rudson.nunes@fatec.sp.gov.br",
+		"blo_codigo": 1,
+		"loc_codigo": 6,
+		"cat_codigo": 1,
+		"ite_codigo": 2,
+		"mot_codigo": 1,
+		"sti_codigo": 3
+	},
+	{
+		"oco_codigo": 5,
+		"oco_obs": "A tela não liga. ",
+		"oco_infoatualizacao": "● Chamado não procede.   - Data: 20/06/2023 13:01:01   |   ● Verificando procedência do chamado.  - Data: 20/06/2023 12:58:51",
+		"oco_datacriacao": "2023-06-20 12:53:01.847",
+		"oco_dataatualizacao": "2023-06-20 13:01:01.273",
+		"oco_numticket": "B5201",
+		"oco_imgocorrencia": "\\Areas\\Admin\\Content\\Images\\B5201\\FotoOcorrenciaB5201.png",
+		"oco_emailcriador": "rudson.nunes@fatec.sp.gov.br",
+		"blo_codigo": 2,
+		"loc_codigo": 10,
+		"cat_codigo": 3,
+		"ite_codigo": 7,
+		"mot_codigo": 2,
+		"sti_codigo": 4
+	},
+	{
+		"oco_codigo": 6,
+		"oco_obs": "O botão de controle de intensidade do ar está quebrado.",
+		"oco_infoatualizacao": "● OS aberta para conserto do ar condicionado.  - Data: 20/06/2023 13:46:13 | ● Verificando procedência do chamado.  - Data: 20/06/2023 12:58:58",
+		"oco_datacriacao": "2023-06-20 12:53:48.987",
+		"oco_dataatualizacao": "2023-06-20 13:46:13.817",
+		"oco_numticket": "B62048",
+		"oco_imgocorrencia": "\\Areas\\Admin\\Content\\Images\\B62048\\FotoOcorrenciaB62048.png",
+		"oco_emailcriador": "rudson.nunes@fatec.sp.gov.br",
+		"blo_codigo": 2,
+		"loc_codigo": 11,
+		"cat_codigo": 3,
+		"ite_codigo": 6,
+		"mot_codigo": 1,
+		"sti_codigo": 2
+	},
+	{
+		"oco_codigo": 7,
+		"oco_obs": "a CPU liga, mas não está iniciando o SO. ",
+		"oco_infoatualizacao": "● Chamado não procede. Computador estava fora da tomada. Foi conectado à energia e voltou a funcionar normalmente.  - Data: 20/06/2023 13:47:07 | ● Verificando procedência do chamado.  - Data: 20/06/2023 12:59:06",
+		"oco_datacriacao": "2023-06-20 12:54:46.603",
+		"oco_dataatualizacao": "2023-06-20 13:47:07",
+		"oco_numticket": "B72046",
+		"oco_imgocorrencia": "src/images/B72046/FotoOcorrenciaB72046.png",
+		"oco_emailcriador": "rudson.nunes@fatec.sp.gov.br",
+		"blo_codigo": 2,
+		"loc_codigo": 12,
+		"cat_codigo": 3,
+		"ite_codigo": 4,
+		"mot_codigo": 2,
+		"sti_codigo": 4
+	},
+	{
+		"oco_codigo": 8,
+		"oco_obs": "O encosto da cadeira está quebrado.",
+		"oco_infoatualizacao": null,
+		"oco_datacriacao": "2023-06-20 12:57:13.803",
+		"oco_dataatualizacao": null,
+		"oco_numticket": "C82013",
+		"oco_imgocorrencia": "\\Areas\\Admin\\Content\\Images\\C82013\\FotoOcorrenciaC82013.png",
+		"oco_emailcriador": "rudson.nunes@fatec.sp.gov.br",
+		"blo_codigo": 4,
+		"loc_codigo": 7,
+		"cat_codigo": 1,
+		"ite_codigo": 5,
+		"mot_codigo": 1,
+		"sti_codigo": 1
+	}
+], 
+
+"OS":[
+	{
+		"ods_codigo": 6,
+		"ods_descproblema": "Janela sem vidro.",
+		"ods_obs": "● Trabalho finalizado pelo fornecedor.  - Data: 20/06/2023 13:54:49",
+		"for_codigo": 3,
+		"ods_valor": 150,
+		"ods_notafiscal": "043378-2",
+		"ods_centrocusto": "Bloco A",
+		"mti_codigo": 5,
+		"ods_dataentregaprevista": "2023-06-30 00:00:00",
+		"ods_dataentregareal": "2023-06-26 00:00:00",
+		"sti_codigo": 3,
+		"ods_numticketos": "OS12049",
+		"ods_datacriacao": "2023-06-20 13:51:49.037",
+		"ods_dataatualizacao": "2023-06-20 13:56:07.603",
+		"usu_codigo": 3
+	},
+	{
+		"ods_codigo": 7,
+		"ods_descproblema": "Ar condicionado faltando uma peça (botão de controle de volume de intensidade do ar)",
+		"ods_obs": "● Trabalho do fornecedor finalizado. Entregue dentro do prazo acordado.  - Data: 20/06/2023 13:57:09 | ● Trabalho em andamento. Aguardando chegada da peça para finalizar o conserto.  - Data: 20/06/2023 13:55:38",
+		"for_codigo": 4,
+		"ods_valor": 519.9,
+		"ods_notafiscal": "050354-1",
+		"ods_centrocusto": "Bloco B",
+		"mti_codigo": 2,
+		"ods_dataentregaprevista": "2023-07-10 00:00:00",
+		"ods_dataentregareal": "2023-07-03 00:00:00",
+		"sti_codigo": 3,
+		"ods_numticketos": "OS72012",
+		"ods_datacriacao": "2023-06-20 13:53:12.767",
+		"ods_dataatualizacao": "2023-06-20 13:57:09.98",
+		"usu_codigo": 3
+	}
+], 
+
+"OSItem": [
+	{
+		"osi_codigo": 23,
+		"ods_codigo": 6,
+		"itd_codigo": 16
+	},
+	{
+		"osi_codigo": 24,
+		"ods_codigo": 7,
+		"itd_codigo": 9
+	}
+]
+
+  
+}
